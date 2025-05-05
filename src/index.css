@@ -1,0 +1,85 @@
+/* Estilos base para todo el documento */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #f5f7fa;
+  color: #333;
+}
+
+/* Estilos para enlaces */
+a {
+  color: #4a6fa5;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #166088;
+  text-decoration: underline;
+}
+
+/* Estilos para encabezados */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 0.5em;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+/* Estilos para botones */
+button {
+  border-radius: 8px;
+  border: none;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  transform: translateY(-2px);
+}
+
+button:focus,
+button:focus-visible {
+  outline: 2px solid #4fc3dc;
+  outline-offset: 2px;
+}
+
+/* Estilos para inputs */
+input {
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+/* Animaciones */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease-in;
+}
