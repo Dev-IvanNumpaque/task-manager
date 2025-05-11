@@ -27,7 +27,7 @@ Sigue estos pasos para instalar y ejecutar el proyecto en tu entorno local:
 
 ```bash
 # Clonar el repositorio
-git clone [URL_DEL_REPOSITORIO]
+git clone https://github.com/Dev-IvanNumpaque/task-manager.git
 
 # Navegar al directorio del proyecto
 cd task-manager
